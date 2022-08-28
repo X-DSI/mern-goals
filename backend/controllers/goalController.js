@@ -3,7 +3,7 @@ const Goal = require('../models/goalModel')
 
 
 
-// @desc GET goals
+// @desc Get goals
 // @route GET /api/goals
 // @access Private
 const getGoals = asyncHandler(async (req, res) => {
