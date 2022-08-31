@@ -25,7 +25,7 @@ function Login() {
         <h1>
           <FaSignInAlt /> Login
         </h1>
-        <p>Login with your account</p>
+        <p>Login in to set goals</p>
       </section>
       <section className="form">
         <form onSubmit={onSubmit}>
@@ -36,7 +36,7 @@ function Login() {
               id="email"
               name="email"
               value={email}
-              placeholder="What's your email address?"
+              placeholder="Enter the email you registered"
               onChange={onChange}
             />
           </div>
@@ -47,7 +47,7 @@ function Login() {
               id="password"
               name="password"
               value={password}
-              placeholder="What do you want as a password?"
+              placeholder="What's your password?"
               onChange={onChange}
             />
           </div>
