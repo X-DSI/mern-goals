@@ -14,7 +14,14 @@ function Dashboard() {
     }
   }, [user, navigate])
 
-  return <div>Dashboard</div>
+  return (
+    <>
+      <section className="heading">
+        <h1>Welcome {user && user.name}</h1>
+        <p>Your goals are waiting for you!</p>
+      </section>
+    </>
+  )
 }
 
 export default Dashboard
